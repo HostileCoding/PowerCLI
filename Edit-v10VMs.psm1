@@ -1,12 +1,10 @@
 <#
 .Synopsis
-   Short description
+   Edit ESXI VMs with v10 virtual hardware
 .DESCRIPTION
-   Long description
+   Provide an alternative GUI to editing VMs using v10 virtual hardware if the vSphere Web Client is unavailable
 .EXAMPLE
-   Example of how to use this cmdlet
-.EXAMPLE
-   Another example of how to use this cmdlet
+   Edit-v10VMs
 #>
 function Edit-v10VMs
 {
