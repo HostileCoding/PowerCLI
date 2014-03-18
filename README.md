@@ -9,3 +9,5 @@ Invoking Scripts in Guest-VM - Perform an automated silent install of Oracle Dat
 Fancy Reports - Create CSS & HTML reports 
 
 Edit hw v10 VMs - A Graphical User Interface to edit virtual machines having hardware version 10
+
+Stats using Google charts - Create HTML reports with interactive charts using Google Charts
