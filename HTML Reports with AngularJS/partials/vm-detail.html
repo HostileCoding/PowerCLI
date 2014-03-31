@@ -1,0 +1,88 @@
+<div id="box3">
+
+<ul id="boxinner">
+
+<h1>{{vms.Name}}</h1>
+
+<p>{{vms.Description}}</p>
+
+  <li>
+    <span>General</span>
+    <dl>
+      <dt>PowerState</dt>
+      <dd>{{vms.PowerState | checkmark}}</dd>
+      <dt>OS</dt>
+      <dd>{{vms.Guest.OSFullName}}</dd>
+	  <dt>Num vCPU</dt>
+      <dd>{{vms.NumCpu}}</dd>
+	  <dt>Memory MB</dt>
+      <dd>{{vms.MemoryMB}}</dd>
+      <dt>IP Address</dt>
+      <dd>{{vms.Guest.IPAddress}}</dd>
+	  <dt>Hostname</dt>
+      <dd>{{vms.Guest.HostName}}</dd>
+	  <dt>VMware Tools Version</dt>
+      <dd>{{vms.Guest.ToolsVersion}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Attached Devices</span>
+    <dl>
+      <dt>Hard Disks</dt>
+      <dd ng-repeat="HardDisks in vms.HardDisks">{{HardDisks}}</dd>
+    </dl>
+	<dl>
+      <dt>Network Adapters</dt>
+      <dd ng-repeat="NetworkAdapters in vms.NetworkAdapters">{{NetworkAdapters}}</dd>
+    </dl>
+	<dl>
+      <dt>USB Devices</dt>
+      <dd ng-repeat="UsbDevices in vms.UsbDevices">{{UsbDevices}}</dd>
+    </dl>
+	<dl>
+      <dt>CD Drives</dt>
+      <dd ng-repeat="CDDrives in vms.CDDrives">{{CDDrives}}</dd>
+    </dl>
+	<dl>
+      <dt>Floppy Drives</dt>
+      <dd ng-repeat="FloppyDrives in vms.FloppyDrives">{{FloppyDrives}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>VMHost Details</span>
+    <dl>
+      <dt>Host</dt>
+      <dd>{{vms.Host.Name}}</p>
+    </dl>
+	<dl>
+      <dt>Manufacturer</dt>
+      <dd>{{vms.Host.Manufacturer}}</p>
+    </dl>
+	<dl>
+      <dt>Model</dt>
+      <dd>{{vms.Host.Model}}</p>
+    </dl>
+	<dl>
+      <dt>Processor Type</dt>
+      <dd>{{vms.Host.ProcessorType}}</p>
+    </dl>
+	<dl>
+      <dt>CPU Number</dt>
+      <dd>{{vms.Host.NumCpu}}</p>
+    </dl>
+	<dl>
+      <dt>Hyperthreading Active</dt>
+      <dd>{{vms.Host.HyperthreadingActive | checkmark}}</p>
+    </dl>
+	<dl>
+      <dt>ESXi Version</dt>
+      <dd>{{vms.Host.Version}}</p>
+    </dl>
+	<dl>
+      <dt>ESXi Build</dt>
+      <dd>{{vms.Host.Build}}</p>
+    </dl>
+  </li>
+  
+</ul>
+</div>

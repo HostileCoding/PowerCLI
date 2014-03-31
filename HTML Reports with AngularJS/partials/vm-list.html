@@ -1,0 +1,25 @@
+    <div id="box1">
+
+      <p>Search: <input ng-model="query"></p>
+      <p>Sort by:
+      <select ng-model="orderProp">
+        <option value="Name">Alphabetical Ascending</option>
+        <option value="-Name">Alphabetical Descending</option>
+      </select></p>
+
+    </div>
+	
+    <div id="box2">
+	
+      <ul>
+        <li id="boxinner" ng-repeat="vm in vms | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/data/{{vm.Id}}">{{vm.Name}}</a>
+          <p>GuestOS: {{vm.Guest}}</p>
+		  <p>MemoryMB: {{vm.MemoryMB}}</p>
+		  <p>Num vCPU: {{vm.NumCpu}}</p>
+		  <p>PowerState: {{vm.PowerState | checkmark}}</p>
+		  <p>Host: {{vm.VMHost}}</p>
+        </li>
+      </ul>
+
+	</div>

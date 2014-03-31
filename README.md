@@ -13,3 +13,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Stats using Google charts` - Create HTML reports with interactive charts using Google Charts
 
 `Alarm Reports` - Create HTML reports of triggered alarms
+
+`HTML Reports with AngularJS` - Dynamic HTML reports using PowerCLI back-end and AngularJS front-end
