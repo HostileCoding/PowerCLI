@@ -15,3 +15,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Alarm Reports` - Create HTML reports of triggered alarms
 
 `HTML Reports with AngularJS` - Dynamic HTML reports using PowerCLI back-end and AngularJS front-end
+
+`Automate OpenStack vApp Deployment` - Automate deployment and configuration of vSphere OpenStack Virtual Appliance
