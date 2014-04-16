@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#0F0F0F"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<EditText
+	    android:id="@+id/input"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textFilter|textMultiLine|textNoSuggestions"
+	    android:singleLine="false"
+	    android:maxLines="10"
+	    android:scrollbars="vertical"
+	    android:background="#F6F6F6"
+	    android:text="@string/connectcmdlet"
+	    android:textColor="#666666"
+	    android:typeface="sans"
+	    android:fontFamily="Verdana"
+	    />
+	
+	<Button android:text="@string/buttonpowercli" android:id="@+id/sendData" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	
+	<TextView
+	    android:id="@+id/output"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:singleLine="false"
+	    android:scrollbars="vertical"
+	    android:background="#262626"
+	    android:textColor="#13ABE4"
+	    android:typeface="sans"
+	    android:fontFamily="Verdana">
+	</TextView>
+
+</LinearLayout>

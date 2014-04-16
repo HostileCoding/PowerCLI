@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid PowerCLI</string>
+    <string name="buttonpowercli">Run PowerCLI</string>
+    <string name="connectcmdlet">Connect-VIServer -Server 10.0.1.210 -User Administrator@vsphere.local -Password vmware</string>
+</resources>

@@ -17,3 +17,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `HTML Reports with AngularJS` - Dynamic HTML reports using PowerCLI back-end and AngularJS front-end
 
 `Automate OpenStack vApp Deployment` - Automate deployment and configuration of vSphere OpenStack Virtual Appliance
+
+`Run PowerCLI from Android` - Run PowerCLI on Android using a PHP back-end
