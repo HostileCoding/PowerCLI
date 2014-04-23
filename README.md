@@ -19,3 +19,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Automate OpenStack vApp Deployment` - Automate deployment and configuration of vSphere OpenStack Virtual Appliance
 
 `Run PowerCLI from Android` - Run PowerCLI on Android using a PHP back-end
+
+`Automate vCloud Agent Deployment` - Automate the manual deployment of vCloud Agent on ESXi hosts
