@@ -21,3 +21,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Run PowerCLI from Android` - Run PowerCLI on Android using a PHP back-end
 
 `Automate vCloud Agent Deployment` - Automate the manual deployment of vCloud Agent on ESXi hosts
+
+`Tenants Mobile Reports` - vCloud tenants reports using jQuery Mobile and PowerCLI
