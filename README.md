@@ -23,3 +23,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Automate vCloud Agent Deployment` - Automate the manual deployment of vCloud Agent on ESXi hosts
 
 `Tenants Mobile Reports` - vCloud tenants reports using jQuery Mobile and PowerCLI
+
+`BackupRestore` - Module to massively backup/restore ESXi hosts configurations
