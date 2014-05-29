@@ -25,3 +25,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `Tenants Mobile Reports` - vCloud tenants reports using jQuery Mobile and PowerCLI
 
 `BackupRestore` - Module to massively backup/restore ESXi hosts configurations
+
+`DownloadSupportBundles` - Automate support bundle collection
