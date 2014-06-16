@@ -27,3 +27,5 @@ This repository contains PowerCLI scripts explained in blog posts at http://host
 `BackupRestore` - Module to massively backup/restore ESXi hosts configurations
 
 `DownloadSupportBundles` - Automate support bundle collection
+
+`IFTTT_Alarms` - Push notifications in IFTTT to monitor triggered warning/alarms in vSphere
